@@ -28,6 +28,36 @@
   color: #61dafb;
 }
 
+.clearBoth {
+  clear: both;
+}
+
+.post-wrap {
+  margin: 18px !important;
+  box-shadow: 1px 1px 2px #c0c0c0;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: unset;
+  margin: 0;
+  float: left;
+  color: azure;
+  font-size: 20px;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+.ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+  color: #ffffff !important;
+  border-bottom: 2px solid #1890ff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
