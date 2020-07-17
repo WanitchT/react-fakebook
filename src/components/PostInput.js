@@ -1,6 +1,6 @@
 import React from 'react'
 import { Avatar, Row, Col, Card, Input, Button } from 'antd';
-import { HeartOutlined, ShareAltOutlined, FileImageOutlined } from '@ant-design/icons'
+import { FileImageOutlined } from '@ant-design/icons'
 
 
 let profileDetail = {
@@ -9,7 +9,7 @@ let profileDetail = {
 }
 
 class PostInput extends React.Component {
-  
+
   constructor(props) {
     super(props);
     this.state = {
@@ -53,6 +53,6 @@ class PostInput extends React.Component {
         </>
       )
     }
-  }
+}
 
   export default PostInput
