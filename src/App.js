@@ -59,7 +59,7 @@ function App() {
             <Route path="/signin"><SignIn /></Route>
             <Route path="/newsfeed"><NewsFeedPage /></Route>
             <Route path="/users"><UsersPage /></Route>
-            <Route path="/home"><HomePage /></Route>
+            <Route path="/"><HomePage /></Route>
           </Switch>
         </div>
     </Router>

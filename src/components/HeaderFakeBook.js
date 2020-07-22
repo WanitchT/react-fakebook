@@ -34,7 +34,7 @@ class HeaderFakeBook extends React.Component {
         <div className="logo"><IconFont type="icon-facebook" /> fakebook</div>
         <DropDownMenu/>
         <Menu style={{ background: "#3b5998", width: '300px'}} mode="horizontal" defaultSelectedKeys={['2']}>
-          <Menu.Item key="1"><Link to="/home">Home</Link></Menu.Item>
+          <Menu.Item key="1"><Link to="/">Home</Link></Menu.Item>
           <Menu.Item key="2"><Link to="/newsfeed">NewsFeed </Link></Menu.Item>
           <Menu.Item key="3"><Link to="/users">Users</Link></Menu.Item>
         </Menu>
